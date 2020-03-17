@@ -1,0 +1,51 @@
+vocab_size:  1443
+index_to_word size: 1443
+train_vecs size: 6036
+dev_vecs size: 750
+test_vecs size: 750
+train_batches size: 189
+dev_batches: 24
+test_batches: 24
+/usr/local/lib/python3.6/site-packages/torch/nn/modules/rnn.py:54: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  "num_layers={}".format(dropout, num_layers))
+start epoch  0
+Epoch: 01 | Epoch Time: 14.11753797531128s
+        Train Loss: 62924.928 | Train Acc: 23.93%
+         Val. Loss: 2.653 |  Val. Acc: 28.88%
+start epoch  1
+Epoch: 02 | Epoch Time: 14.188510656356812s
+        Train Loss: 181.275 | Train Acc: 28.67%
+         Val. Loss: 2.486 |  Val. Acc: 30.79%
+start epoch  2
+Epoch: 03 | Epoch Time: 14.21968674659729s
+        Train Loss: 144.778 | Train Acc: 30.45%
+         Val. Loss: 2.405 |  Val. Acc: 31.76%
+start epoch  3
+Epoch: 04 | Epoch Time: 14.075882911682129s
+        Train Loss: 194.140 | Train Acc: 31.49%
+         Val. Loss: 2.359 |  Val. Acc: 32.44%
+start epoch  4
+Epoch: 05 | Epoch Time: 13.994155883789062s
+        Train Loss: 103.948 | Train Acc: 32.16%
+         Val. Loss: 2.332 |  Val. Acc: 32.86%
+start epoch  5
+Epoch: 06 | Epoch Time: 14.127674341201782s
+        Train Loss: 89.730 | Train Acc: 33.13%
+         Val. Loss: 2.314 |  Val. Acc: 33.26%
+start epoch  6
+Epoch: 07 | Epoch Time: 14.051009178161621s
+        Train Loss: 114.469 | Train Acc: 33.78%
+         Val. Loss: 2.302 |  Val. Acc: 33.58%
+start epoch  7
+Epoch: 08 | Epoch Time: 14.093813419342041s
+        Train Loss: 175.699 | Train Acc: 34.41%
+         Val. Loss: 2.298 |  Val. Acc: 33.73%
+start epoch  8
+Epoch: 09 | Epoch Time: 14.154251098632812s
+        Train Loss: 95.271 | Train Acc: 35.05%
+         Val. Loss: 2.296 |  Val. Acc: 33.91%
+start epoch  9
+Epoch: 10 | Epoch Time: 13.879425525665283s
+        Train Loss: 107.109 | Train Acc: 35.75%
+         Val. Loss: 2.294 |  Val. Acc: 33.86%
+Test. Loss: 2.257 |  Test. Acc: 33.50%
